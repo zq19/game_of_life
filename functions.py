@@ -34,7 +34,53 @@ def change_color(screen,cell):
             lid = cell.cell[i][j]
             pygame.draw.rect(screen, [lid, lid, lid], (k, g, 10, 10), 0)
 
-def check_events():
+def check_exit():
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             sys.exit()
+
+
+
+def check_events(cell_edge,button,state,cell1,screen):
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            sys.exit()
+        if event.type == pygame.MOUSEBUTTONDOWN:
+            mouse_x, mouse_y = pygame.mouse.get_pos()
+            if  not state.active_flag:
+                state.user_flag = True
+                if not state.user_flag:
+                    cell1.cell[28][28] = 255
+                    cell1.cell[28][29] = 255
+                    cell1.cell[28][30] = 255
+                    cell1.cell[29][29] = 255
+                    cell1.cell[30][30] = 255
+                i = int(mouse_x/cell_edge)
+                j = int(mouse_y/cell_edge)
+                cell1.cell[i][j] = abs(cell1.cell[i][j]-255)
+                lid = cell1.cell[i][j]
+                pygame.draw.rect(screen, [lid, lid, lid], (i * 10, j * 10, 10, 10), 0)
+
+            check_paly_button(button,mouse_x,mouse_y,state,cell1)
+
+def check_paly_button(button,mouse_x,mouse_y,state,cell1):
+    "检查是否按下了play按钮"
+    check_botton = button.rect.collidepoint(mouse_x,mouse_y)
+    if check_botton and not state.active_flag:
+        pygame.mouse.set_visible(False)
+        state.active_flag = True
+
+        pygame.mixer.music.load(".\images\water.mp3")
+        pygame.mixer.music.play(100,0)
+
+def check_mouse(cell1,cell_edge,screen,state):
+    for event in pygame.event.get():
+        if event.type == pygame.MOUSEBUTTONDOWN:
+            mouse_x, mouse_y = pygame.mouse.get_pos()
+            if  not state.active_flag:
+                state.user_flag = True
+                i = int(mouse_x/cell_edge)
+                j = int(mouse_y/cell_edge)
+                cell1.cell[i][j] = abs(cell1.cell[i][j]-255)
+                lid = cell1.cell[i][j]
+                pygame.draw.rect(screen, [lid, lid, lid], (i * 10, j * 10, 10, 10), 0)
