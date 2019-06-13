@@ -1,3 +1,6 @@
+import pygame
+import sys
+
 def is_on_edge(cells,h, w):
     "判断细胞是否位于边界"
     return cells[min(h, len(cells) - 1)][min(w,len(cells[0]) - 1)]
@@ -6,13 +9,13 @@ def get_surround_cells_count(cells, h, w):
     "统计细胞周围8个细胞的生死状态"
     nearby = [is_on_edge(cells,h + dy, w + dx) for dx in [-1, 0, 1]
               for dy in [-1, 0, 1] if not (dx == 0 and dy == 0)]
-    return len(list(filter(lambda x: x == 1, nearby)))
+    return len(list(filter(lambda x: x == 255, nearby)))
 
 
 def cell_new_state(cells,h, w):
     "更新细胞状态"
     count = get_surround_cells_count(cells,h, w)
-    return 1 if count == 3 else 0 if count < 2 or count > 3 else cells[h][w]
+    return 255 if count == 3 else 0 if count < 2 or count > 3 else cells[h][w]
 
 
 def update_cells(cells):
@@ -20,3 +23,18 @@ def update_cells(cells):
     cells = [[cell_new_state(cells,h, w) for w in range(len(cells[0]))]
                   for h in range(len(cells))]
     return cells
+
+def change_color(screen,cell):
+    for i in range(len(cell.cell)):
+        k = i
+        k = k * 10
+        for j in range(len(cell.cell)):
+            g = j
+            g = g * 10
+            lid = cell.cell[i][j]
+            pygame.draw.rect(screen, [lid, lid, lid], (k, g, 10, 10), 0)
+
+def check_events():
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            sys.exit()
