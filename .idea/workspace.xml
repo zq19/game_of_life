@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d6983f-fde5-4873-8f84-a07050e5444b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cells.py" beforeDir="false" afterPath="$PROJECT_DIR$/cells.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,44 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cells.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="358">
+              <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -62,11 +33,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+            <state relative-caret-position="-138">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="828">
+              <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cells.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buttons.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game_state.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -86,17 +105,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/images/game_state.py" />
+        <option value="$PROJECT_DIR$/buttons.py" />
+        <option value="$PROJECT_DIR$/core_code.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/cells.py" />
-        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/game_state.py" />
         <option value="$PROJECT_DIR$/functions.py" />
         <option value="$PROJECT_DIR$/main_function.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="27" />
-    <option name="y" value="47" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-13" />
+    <option name="y" value="8" />
     <option name="width" value="1346" />
     <option name="height" value="728" />
   </component>
@@ -106,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,18 +136,33 @@
               <item name="game_of_life" type="b2602c69:ProjectViewProjectNode" />
               <item name="game_of_life" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="game_of_life" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game_of_life" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../catch_ball" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Program\game_of_life" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program\game_of_life\images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,6 +177,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main_function">
+    <configuration name="core_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="game_of_life" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core_code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="game_of_life" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,8 +283,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main_function" />
-        <item itemvalue="Python.settings" />
         <item itemvalue="Python tests.Unittests in test.py" />
+        <item itemvalue="Python.core_code" />
+        <item itemvalue="Python.settings" />
         <item itemvalue="Python.functions" />
       </list>
     </recent_temporary>
@@ -242,34 +302,57 @@
       <updated>1560343815335</updated>
       <workItem from="1560343834661" duration="688000" />
       <workItem from="1560344544819" duration="2214000" />
-      <workItem from="1560388141755" duration="4857000" />
+      <workItem from="1560388141755" duration="19711000" />
+      <workItem from="1560496140063" duration="2465000" />
+      <workItem from="1560670685487" duration="26033000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_py - 2019.06.12 at 20h 58m 18s.xml">
+    <history-entry file="Unittests_in_test_py - 2019.06.16 at 18h 22m 02s.xml">
       <configuration name="Unittests in test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_py - 2019.06.12 at 21h 02m 44s.xml">
+    <history-entry file="Unittests_in_test_py - 2019.06.16 at 18h 22m 12s.xml">
       <configuration name="Unittests in test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_py - 2019.06.12 at 22h 21m 46s.xml">
+    <history-entry file="Unittests_in_test_py - 2019.06.16 at 18h 40m 06s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2019.06.16 at 18h 40m 46s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2019.06.16 at 18h 41m 16s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2019.06.16 at 18h 42m 40s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2019.06.16 at 18h 57m 48s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2019.06.16 at 18h 58m 42s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2019.06.16 at 19h 00m 36s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2019.06.16 at 19h 52m 17s.xml">
       <configuration name="Unittests in test.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7759000" />
+    <option name="totallyTimeSpent" value="51111000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="47" width="1346" height="728" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25738725" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14069591" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32828283" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20923077" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -291,16 +374,56 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/game_of_life$main_function.coverage" NAME="main_function Coverage Results" MODIFIED="1560393038267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/game_of_life$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1560349305809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/game_of_life$core_code.coverage" NAME="core_code Coverage Results" MODIFIED="1560682504852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/game_of_life$main_function.coverage" NAME="main_function Coverage Results" MODIFIED="1560699199389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/game_of_life$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1560685937045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/game_of_life$settings.coverage" NAME="settings Coverage Results" MODIFIED="1560388850115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/game_of_life$functions.coverage" NAME="functions Coverage Results" MODIFIED="1560344559491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/images/paly.png" />
+    <entry file="file://$PROJECT_DIR$/../AI/venv/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="17" column="53" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="17" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game_state.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cells.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="276">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -309,35 +432,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+        <state relative-caret-position="-138">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main_function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="358">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
